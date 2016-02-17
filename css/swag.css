@@ -10,6 +10,7 @@ body {
 
 p {
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 p.small {
@@ -251,6 +252,7 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
+    margin-bottom: 40px;
 }
 
 @media(min-width:767px) {
@@ -455,4 +457,14 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+.jq{
+    height: 100%;
+   width: 100%;
+}
+.node{
+    padding: 35px 0;
+}
+.padLeft{
+    margin-left: 35px;
 }
